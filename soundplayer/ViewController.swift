@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import AVFoundation
+import ARKit
+class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
+    let popSound = Bundle.main.url(forResource: "5", withExtension: "m4a")
+    var audioPlayer = AVAudioPlayer()
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func start(_ sender: Any) {
+        audioPlayer.play()
     }
-
+    override func viewDidLoad() {
+       do {
+            audioPlayer = try AVAudioPlayer(contentsOf: popSound!)
+        audioPlayer.prepareToPlay()                                     
+            audioPlayer.play()
+        
+        } catch {
+            print("couldn't load sound file")
+        }
+}
 
 }
 
