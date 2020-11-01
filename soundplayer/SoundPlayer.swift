@@ -4,7 +4,7 @@
 //
 //  Created by paw on 01.11.2020.
 //  Copyright © 2020 Paul Moryakov. All rights reserved.
-//
+// You can copy this code and paste into your project
 
 import AVFoundation
 struct Soundplayer {
