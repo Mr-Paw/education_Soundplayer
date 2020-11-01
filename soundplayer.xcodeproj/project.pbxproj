@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5740053D2410EB2300421FD4 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5740053C2410EB2300421FD4 /* 5.m4a */; };
+		57ADF9FF254EC79E008D167C /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ADF9FE254EC79E008D167C /* SoundPlayer.swift */; };
 		57B4F7FF240EEE23001A7377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4F7FE240EEE23001A7377 /* AppDelegate.swift */; };
 		57B4F801240EEE23001A7377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4F800240EEE23001A7377 /* SceneDelegate.swift */; };
 		57B4F803240EEE23001A7377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4F802240EEE23001A7377 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		5740053C2410EB2300421FD4 /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.m4a; sourceTree = "<group>"; };
+		57ADF9FE254EC79E008D167C /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		57B4F7FB240EEE23001A7377 /* soundplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B4F7FE240EEE23001A7377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57B4F800240EEE23001A7377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				57B4F7FE240EEE23001A7377 /* AppDelegate.swift */,
 				57B4F800240EEE23001A7377 /* SceneDelegate.swift */,
 				57B4F802240EEE23001A7377 /* ViewController.swift */,
+				57ADF9FE254EC79E008D167C /* SoundPlayer.swift */,
 				57B4F804240EEE23001A7377 /* Main.storyboard */,
 				57B4F807240EEE28001A7377 /* Assets.xcassets */,
 				57B4F809240EEE28001A7377 /* LaunchScreen.storyboard */,
@@ -97,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Paul Moryakov";
 				TargetAttributes = {
 					57B4F7FA240EEE23001A7377 = {
@@ -144,6 +147,7 @@
 			files = (
 				57B4F803240EEE23001A7377 /* ViewController.swift in Sources */,
 				57B4F7FF240EEE23001A7377 /* AppDelegate.swift in Sources */,
+				57ADF9FF254EC79E008D167C /* SoundPlayer.swift in Sources */,
 				57B4F801240EEE23001A7377 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
